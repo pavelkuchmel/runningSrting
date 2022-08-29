@@ -1,11 +1,15 @@
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
+
 
 public class Main {
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
         ArrayList<Character> moveString = new ArrayList<>();
-        String test = "Вика кашка :*";
+        System.out.print("Введите текст: ");
+        String test = in.nextLine();
         int i = 0;
         for (;;i++){
             try {
